@@ -11,7 +11,8 @@ import mongoose from 'mongoose';
                 ref: 'Course'
             }
         ],
-    }, {timeStamps: true});
+    }, { timestamps: true }
+);
   const User = mongoose.model('user', userSchema);
 
   export default User
